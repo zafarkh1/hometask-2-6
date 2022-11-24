@@ -1,0 +1,22 @@
+section#girl-1 {
+	background-color: #000;
+	color: #fff;
+	padding: {
+		left: 1rem;
+		right: 3rem;
+	}
+	.portion.right:not(:first-of-type) {
+		margin-left: 5rem;
+		font-family: arca;
+	}
+
+	.portion p {
+		margin-top: 1rem;
+		width: 450px;
+	}
+
+	.girl-1-paragraph {
+		font-family: 'Open Sans';
+		margin-left: -1rem;
+	}
+}

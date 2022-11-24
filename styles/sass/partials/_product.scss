@@ -1,0 +1,30 @@
+section#products {
+	padding: 1rem;
+	background-color: #fff;
+
+	h2 {
+		margin: 3rem;
+	}
+
+	.portion {
+		margin-left: 1rem;
+		position: relative;
+
+			.h5-position {
+				position: absolute;
+					top: 0.8rem;
+					left: 0.8rem;
+					z-index: 1;
+			}
+
+			.h5-position {
+				background-color: #fff;
+				border: 1px solid transparent;
+				padding: 0.3rem;
+			}
+		.iconic {
+			margin: 0.5rem 0;
+		}
+	}
+	
+}

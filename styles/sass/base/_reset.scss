@@ -1,0 +1,31 @@
+/* Reset start */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+@font-face {
+	font-family: arca;
+	src: url(../../../arca_majora/ArcaMajora3-Bold.otf);
+}
+/* Reset end */

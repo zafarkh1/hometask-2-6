@@ -1,0 +1,32 @@
+footer#footer {
+	padding: 5rem;
+	background-color: #F1F1F1;
+
+	.container {
+		gap: 10rem;
+		ul {
+			gap: 1rem;
+			margin-top: 1rem;
+		}
+		input {
+			border-style: hidden;
+			border-bottom-style: groove;
+			width: 400px;
+			line-height: 3rem;
+			border-color: #F1F1F1;
+			background-color: #F1F1F1;
+		}
+	}
+	.left li, .right li {
+		margin-bottom: 1rem;
+		font-size: 14px;
+	}
+	.right h5, .footer-form h5 {
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		margin-bottom: 2rem;
+	}
+	.left img {
+		margin-bottom: 1rem;
+	}
+}

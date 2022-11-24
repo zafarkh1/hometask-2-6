@@ -1,0 +1,171 @@
+.dropdown {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  header#main-header {
+    .container {
+      width: 700px;
+      .navbar {
+        .link {
+          display: none;
+        }
+        .logo {
+          margin-left: 15rem;
+        }
+      }
+    }
+  }
+  section#advertisement {
+    .container {
+      width: 700px;
+      // background-color: aqua;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  }
+  section#girl-1 {
+    padding: 0;
+    .container {
+      width: 700px;
+      flex-direction: column;
+      .portion.right:not(:first-of-type) {
+        margin-left: 0rem;
+      }
+      // background-color: aqua;
+      .right {
+        width: 100%;
+        // background-color: aqua;
+      }
+      .portion {
+        p {
+          width: 100%;
+        }
+        .girl-1-paragraph {
+          width: 100%;
+          margin: 0;
+        }
+      }
+    }
+  }
+  section#girl-2 {
+    padding {
+      top: 3rem;
+      left: 0;
+    }
+    .container {
+      width: 700px;
+      flex-direction: column;
+      .portion.right {
+        margin-left: -20rem;
+      }
+    }
+  }
+  section#products {
+    padding: 0;
+    margin-top: 3rem;
+    h2 {
+      margin: 0rem;
+      margin-left: 9rem;
+    }
+    .container {
+      width: 700px;
+      .portion.display-none {
+        display: none;
+      }
+    }
+  }
+  footer#footer {
+    .container {
+      width: 700px;
+      flex-wrap: wrap;
+    }
+    .footer-form {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .dropdown {
+    position: relative;
+    display: block;
+  }
+
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: aqua;
+  }
+
+  input:checked + .dropdown-menu {
+    display: block;
+  }
+
+  header#main-header {
+    .container {
+      width: 400px;
+      .navbar {
+        .logo {
+          margin: 0 auto;
+        }
+        .iconic {
+          .fa-user,
+          .fa-magnifying-glass {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  section#advertisement {
+    padding: {
+      top: 3rem;
+      left: 1rem;
+    }
+    .container {
+      width: 400px;
+      flex-wrap: wrap;
+      .portion {
+        p {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  section#girl-1 {
+    .container {
+      width: 400px;
+    }
+  }
+  section#girl-2 {
+    .container {
+      width: 400px;
+      padding-bottom: 3rem;
+      .portion.right {
+        padding-left: 20rem;
+        h1 {
+          text-align: left;
+        }
+      }
+    }
+  }
+  section#products {
+    .container {
+      width: 400px;
+      flex-wrap: wrap;
+      flex-direction: column;
+      .portion.out {
+        display: none;
+      }
+    }
+  }
+  footer#footer {
+    .container {
+      width: 400px;
+      gap: 7rem;
+    }
+  }
+}

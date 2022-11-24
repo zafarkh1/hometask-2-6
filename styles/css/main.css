@@ -1,0 +1,415 @@
+/* Reset start */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: arca;
+  src: url(../../../arca_majora/ArcaMajora3-Bold.otf);
+}
+/* Reset end */
+/* Utils start */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.justify-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.justify-evenly {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.align-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.align-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.align-stretch {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.portion {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container {
+  width: 1265px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: #fff;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+}
+
+/* Utils end */
+header#main-header {
+  background-color: #fff;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+header#main-header nav .navbar-paragraph {
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+header#main-header .navbar li {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+header#main-header .link li {
+  margin: 0 1rem;
+}
+header#main-header .iconic li {
+  margin: 0 0.5rem;
+}
+
+section#advertisement {
+  padding-top: 3rem;
+  padding-left: 5rem;
+  background-color: #000;
+  color: #fff;
+}
+section#advertisement .container .portion h2 {
+  margin-bottom: 5rem;
+}
+section#advertisement .container .portion p {
+  margin-bottom: 4rem;
+  font-size: 14px;
+  width: 600px;
+}
+section#advertisement .container .portion span {
+  font-size: 14px;
+}
+
+section#girl-1 {
+  background-color: #000;
+  color: #fff;
+  padding-left: 1rem;
+  padding-right: 3rem;
+}
+section#girl-1 .portion.right:not(:first-of-type) {
+  margin-left: 5rem;
+  font-family: arca;
+}
+section#girl-1 .portion p {
+  margin-top: 1rem;
+  width: 450px;
+}
+section#girl-1 .girl-1-paragraph {
+  font-family: "Open Sans";
+  margin-left: -1rem;
+}
+
+section#girl-2 {
+  padding-top: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #000;
+}
+section#girl-2 .left {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+section#girl-2 .portion h1 {
+  width: 400px;
+}
+
+section#products {
+  padding: 1rem;
+  background-color: #fff;
+}
+section#products h2 {
+  margin: 3rem;
+}
+section#products .portion {
+  margin-left: 1rem;
+  position: relative;
+}
+section#products .portion .h5-position {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  z-index: 1;
+}
+section#products .portion .h5-position {
+  background-color: #fff;
+  border: 1px solid transparent;
+  padding: 0.3rem;
+}
+section#products .portion .iconic {
+  margin: 0.5rem 0;
+}
+
+footer#footer {
+  padding: 5rem;
+  background-color: #F1F1F1;
+}
+footer#footer .container {
+  gap: 10rem;
+}
+footer#footer .container ul {
+  gap: 1rem;
+  margin-top: 1rem;
+}
+footer#footer .container input {
+  border-style: hidden;
+  border-bottom-style: groove;
+  width: 400px;
+  line-height: 3rem;
+  border-color: #F1F1F1;
+  background-color: #F1F1F1;
+}
+footer#footer .left li, footer#footer .right li {
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
+footer#footer .right h5, footer#footer .footer-form h5 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+footer#footer .left img {
+  margin-bottom: 1rem;
+}
+
+.dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  header#main-header .container {
+    width: 700px;
+  }
+  header#main-header .container .navbar .link {
+    display: none;
+  }
+  header#main-header .container .navbar .logo {
+    margin-left: 15rem;
+  }
+  section#advertisement .container {
+    width: 700px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section#girl-1 {
+    padding: 0;
+  }
+  section#girl-1 .container {
+    width: 700px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section#girl-1 .container .portion.right:not(:first-of-type) {
+    margin-left: 0rem;
+  }
+  section#girl-1 .container .right {
+    width: 100%;
+  }
+  section#girl-1 .container .portion p {
+    width: 100%;
+  }
+  section#girl-1 .container .portion .girl-1-paragraph {
+    width: 100%;
+    margin: 0;
+  }
+  section#girl-2 padding {
+    top: 3rem;
+    left: 0;
+  }
+  section#girl-2 .container {
+    width: 700px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section#girl-2 .container .portion.right {
+    margin-left: -20rem;
+  }
+  section#products {
+    padding: 0;
+    margin-top: 3rem;
+  }
+  section#products h2 {
+    margin: 0rem;
+    margin-left: 9rem;
+  }
+  section#products .container {
+    width: 700px;
+  }
+  section#products .container .portion.display-none {
+    display: none;
+  }
+  footer#footer .container {
+    width: 700px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer#footer .footer-form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .dropdown {
+    position: relative;
+    display: block;
+  }
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: aqua;
+  }
+  input:checked + .dropdown-menu {
+    display: block;
+  }
+  header#main-header .container {
+    width: 400px;
+  }
+  header#main-header .container .navbar .logo {
+    margin: 0 auto;
+  }
+  header#main-header .container .navbar .iconic .fa-user,
+header#main-header .container .navbar .iconic .fa-magnifying-glass {
+    display: none;
+  }
+  section#advertisement {
+    padding-top: 3rem;
+    padding-left: 1rem;
+  }
+  section#advertisement .container {
+    width: 400px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#advertisement .container .portion p {
+    width: 100%;
+  }
+  section#girl-1 .container {
+    width: 400px;
+  }
+  section#girl-2 .container {
+    width: 400px;
+    padding-bottom: 3rem;
+  }
+  section#girl-2 .container .portion.right {
+    padding-left: 20rem;
+  }
+  section#girl-2 .container .portion.right h1 {
+    text-align: left;
+  }
+  section#products .container {
+    width: 400px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section#products .container .portion.out {
+    display: none;
+  }
+  footer#footer .container {
+    width: 400px;
+    gap: 7rem;
+  }
+}/*# sourceMappingURL=main.css.map */
